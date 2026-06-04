@@ -1,0 +1,38 @@
+# --- Streamlit Specific ---
+.streamlit/config.toml
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# --- Python Virtual Environments & Dependencies ---
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Python Caching & Compiled Files ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Environment Variables & Sensitive Credentials ---
+.env
+.secret
+*.pem
+credentials.json
+
+# --- Data & Notebooks (Optional, but highly recommended for data apps) ---
+*.csv
+*.xlsx
+*.sqlite
+*.db
+.ipynb_checkpoints/
+
+# --- Operating System Clutter ---
+.DS_Store
+Thumbs.db
