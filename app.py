@@ -8,7 +8,6 @@ st.set_page_config(
 )
 
 # 2. Define the navigation structure and tie individual pages to files
-# You can split them into logical, visually separated sections
 pages = {
     "Research Framework": [
         st.Page("pages/introduction.py", title="1. Context & Motivation", icon="👋", default=True),
