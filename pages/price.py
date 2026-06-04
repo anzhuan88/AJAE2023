@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 # -----------------------------------------------------------
 @st.cache_data
 def load_data():
-    df_ = pd.read_csv(r"assets\cprice.csv")
+    df_ = pd.read_csv(r"assets/cprice.csv")
     df_["rp"] = df_["rp"].map({0: "No Reminder", 1: "With Reminder"})
     return df_
 
