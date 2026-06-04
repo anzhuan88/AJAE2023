@@ -1,3 +1,10 @@
+## License
+#This project is released under the MIT License.
+## Disclaimer
+#This project processes only **public data from my referenced AJAE paper**.
+#No proprietary or sensitive data are included.
+
+
 import streamlit as st
 
 # 1. Declare page configuration ONCE at the entry point of app.py
